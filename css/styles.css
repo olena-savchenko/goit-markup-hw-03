@@ -61,6 +61,7 @@ img {
 }
 .section {
   padding: 94px 0;
+  outline: 1px solid red;
 }
 
 /* HEADER */
@@ -68,7 +69,7 @@ img {
   border-bottom: 1px solid var(--header-border-color);
 }
 .nav,
-.wrapper {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -195,6 +196,7 @@ img {
 }
 
 .benefits-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
