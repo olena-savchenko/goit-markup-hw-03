@@ -61,7 +61,6 @@ img {
 }
 .section {
   padding: 94px 0;
-  outline: 1px solid red;
 }
 
 /* HEADER */
@@ -88,7 +87,7 @@ img {
   color: var(--accent-color);
 }
 /* Загальні стилі всіх посилань у header*/
-.header-menu,
+.header-list,
 .header-contact {
   display: flex;
   gap: 50px;
@@ -101,8 +100,8 @@ img {
   margin-left: auto;
 }
 
-.header-menu-item,
-.header-contact-item {
+.header-link,
+.contact-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -110,14 +109,14 @@ img {
   color: var(--title-color);
 }
 
-.header-contact-item {
+.contact-link {
   color: currentColor;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus,
-.header-contact-item:hover,
-.header-contact-item:focus {
+.header-link:hover,
+.header-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
